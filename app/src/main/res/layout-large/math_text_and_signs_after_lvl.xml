@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:background="#ffffff"
+    android:layout_gravity="center"
+    tools:context=".Campaign.CampaignMath.Math_text_and_signs_after_lvl">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        >
+
+        <TextView
+            android:id="@+id/corect"
+            android:gravity="center_horizontal"
+            android:layout_gravity="center_horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/correctAfterTextAndSigns"
+            android:textSize="50dp"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:id="@+id/allLvlCompl"
+            android:visibility="gone"
+            android:layout_marginTop="10dp"
+            android:gravity="center_horizontal"
+            android:layout_gravity="center_horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="All levels completed"
+            android:textSize="30dp"
+            android:textStyle="bold"/>
+
+        <ImageButton
+            android:gravity="center_horizontal"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_width="160dp"
+            android:layout_height="160dp"
+            android:src="@drawable/galochka"
+            android:scaleType="fitCenter"
+            android:background="#ffffff"/>
+
+        <ImageButton
+            android:enabled="false"
+            android:visibility="invisible"
+            android:gravity="center_horizontal"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:src="@drawable/galochka"
+            android:scaleType="fitCenter"
+            android:background="#ffffff"/>
+
+
+        <TextView
+            android:id="@+id/answer"
+            android:gravity="center_horizontal"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/the_answerAfterTextAndSigns"
+            android:textSize="45dp"
+            android:textStyle="bold"/>
+        <TextView
+            android:id="@+id/Answer"
+            android:gravity="center_horizontal"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="4dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="10 | 12 | 14 | 16 | 18"
+            android:textSize="40dp"
+            android:textStyle="italic"/>
+
+        <ImageButton
+            android:enabled="false"
+            android:visibility="invisible"
+            android:gravity="center_horizontal"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:src="@drawable/galochka"
+            android:scaleType="fitCenter"
+            android:background="#ffffff"/>
+
+
+        <LinearLayout
+            android:padding="10dp"
+            android:id="@+id/NextLevel"
+            android:gravity="center_horizontal"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/nextlvl_button"
+            android:orientation="horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+
+            <ImageButton
+                android:id="@+id/img"
+                android:enabled="false"
+                android:layout_marginRight="6dp"
+                android:layout_gravity="center_vertical"
+                android:gravity="center_vertical"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:background="@drawable/circle_next_lvl"/>
+
+            <TextView
+                android:id="@+id/nextLvl"
+                android:layout_gravity="center_vertical"
+                android:gravity="center_vertical"
+                android:layout_marginLeft="6dp"
+                android:layout_marginRight="6dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/next_levelAfterTextAndSings"
+                android:textSize="40dp"
+                android:textColor="#ffffff"/>
+
+        </LinearLayout>
+
+
+
+
+    </LinearLayout>
+
+</LinearLayout>

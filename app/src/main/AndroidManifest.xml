@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.puzzle.mathpuzzle">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".Campaign.CampaignMath.TextQuestions.TextQuestionsCamplaign"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Campaign.CampaignMath.Signs.SignsCampaign"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Campaign.CampaignMath.picture.PictureCampaignMath"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Campaign.CampaignMath.Buttons.ButtonsCampaign"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Campaign.CampaignMath.MapLevel"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Campaign.CampaignMath.Math_text_and_signs_after_lvl"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".StartButtons.Setting"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".CampaignSuma.CampaignTestSuma7x7"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".CampaignSuma.CampaignTestSume6x6"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".CampaignSuma.CampaignTestSuma5x5"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".CampaignSuma.CampaignTestSuma"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".CampaignSuma.MapLevelSuma"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".CampaignSuma.SumaAfterLvl"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".StartActivity"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

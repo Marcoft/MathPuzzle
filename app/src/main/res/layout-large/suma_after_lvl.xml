@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:background="#ffffff"
+    android:layout_gravity="center"
+    tools:context=".CampaignSuma.SumaAfterLvl">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        >
+
+        <TextView
+            android:id="@+id/corect"
+            android:gravity="center_horizontal"
+            android:layout_gravity="center_horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/correctAfterSuma"
+            android:textSize="70sp"
+            android:textStyle="bold"/>
+
+
+        <TextView
+            android:id="@+id/allLvlCompl"
+            android:visibility="gone"
+            android:layout_marginTop="10dp"
+            android:gravity="center_horizontal"
+            android:layout_gravity="center_horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="All levels completed"
+            android:textSize="30dp"
+            android:textStyle="bold"/>
+
+        <ImageButton
+            android:gravity="center_horizontal"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="30dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_width="160dp"
+            android:layout_height="160dp"
+            android:src="@drawable/galochka"
+            android:scaleType="fitCenter"
+            android:background="#ffffff"/>
+
+
+
+        <RelativeLayout
+            android:padding="10dp"
+            android:layout_marginTop="15dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <TextView
+                android:visibility="gone"
+                android:textStyle="bold"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:id="@+id/money"
+                android:gravity="center"
+                android:layout_gravity="center"
+                android:textColor="#000"
+                android:text="+10"
+                android:textSize="30sp" />
+
+            <ImageView
+                android:visibility="gone"
+                android:layout_centerVertical="true"
+                android:gravity="center"
+                android:layout_gravity="center"
+                android:id="@+id/score"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_marginRight="10dp"
+                android:layout_toRightOf="@id/money"
+                android:background="@drawable/lightbulb" />
+        </RelativeLayout>
+
+        <ImageButton
+            android:enabled="false"
+            android:visibility="invisible"
+            android:gravity="center_horizontal"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:src="@drawable/galochka"
+            android:scaleType="fitCenter"
+            android:background="#ffffff"/>
+
+
+        <LinearLayout
+            android:padding="10dp"
+            android:id="@+id/NextLevel"
+            android:gravity="center_horizontal"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/nextlvl_button"
+            android:orientation="horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+
+            <ImageButton
+                android:padding="10dp"
+                android:id="@+id/img"
+                android:enabled="false"
+                android:layout_marginRight="6dp"
+                android:layout_gravity="center_vertical"
+                android:gravity="center_vertical"
+                android:layout_width="90dp"
+                android:layout_height="90dp"
+                android:background="@drawable/circle_next_lvl"/>
+
+            <TextView
+                android:id="@+id/nextLvl"
+                android:layout_gravity="center_vertical"
+                android:gravity="center_vertical"
+                android:layout_marginLeft="6dp"
+                android:layout_marginRight="6dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/next_levelAfterSuma"
+                android:textSize="50sp"
+                android:textColor="#ffffff"/>
+
+        </LinearLayout>
+
+
+
+
+    </LinearLayout>
+
+</LinearLayout>

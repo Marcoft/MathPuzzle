@@ -1,0 +1,107 @@
+<resources>
+    <string name="app_name">Math Puzzle</string>
+
+    //Activity_buttons_campaign:
+    <string name="level_Button_campaign">Level: 1</string>
+    <string name="QuestionsButtonCampaign">What number is missing?</string>
+    <string name="CheckButtonCampaign">Check</string>
+    <string name="MenuButtonCampaign">Menu</string>
+
+    //activity_campaign_test_suma:
+    <string name="LevelSume4x4">Level: 1</string>
+
+    //activity_campaign_test_suma5x5:
+    <string name="LevelSuma5x5">Level: 1</string>
+
+    //activity_campaign_test_suma7x7:
+    <string name="LevelSuma7x7">Level: 1</string>
+
+    //activity_campaign_test_sume6x6:
+    <string name="LevelSuma6x6">Level: 1</string>
+
+    //activity_map_level:
+    //activity_map_level_suma:
+
+    //activity_picture_campaign_math:
+    <string name="LevelPictureCampaign">Level: 1</string>
+    <string name="QuestionsPictureCampaign">How many triangles are there?</string>
+    <string name="CheckPictureCampaign">Check</string>
+    <string name="MenuPictureCampaign">Menu</string>
+
+    //activity_setting:
+    <string name="NotificationsSetting">Notifications</string>
+
+    //activity_signs_campaign:
+    <string name="LevelSignsCampaign">Level: 1</string>
+    <string name="QuestionsSignsCampaign">What number is missing?</string>
+    <string name="ChechSignsCampaign">Check</string>
+    <string name="MenuSignsCampaign">Menu</string>
+
+    //activity_start:
+    <string name="math_puzzlesStart">Math Puzzle</string>
+    <string name="math_puzzle_levelsStart">Math Puzzle Levels</string>
+    <string name="sum_of_numbers_levelsStart">Sum of numbers Levels</string>
+    <string name="languageStart">Language</string>
+    <string name="share_friendsStart">Share friends</string>
+    <string name="play_marketStart">Play Market</string>
+    <string name="exitStart">Exit</string>
+
+    //activity_text_questions_camplaign:
+    <string name="LevelTextCampaign">Level: 1</string>
+    <string name="QuestionsTextCampaign">Word</string>
+    <string name="CheckTextCampaign">Check</string>
+    <string name="MenuTextCampaign">Menu</string>
+
+    //math_text_and_signs_after_lvl:
+    <string name="correctAfterTextAndSigns">Correct</string>
+    <string name="the_answerAfterTextAndSigns">The Answer :</string>
+    <string name="next_levelAfterTextAndSings">Next Level</string>
+
+    //suma_after_lvl:
+    <string name="correctAfterSuma">Correct</string>
+    <string name="next_levelAfterSuma">Next Level</string>
+
+    //Other
+    <string name="toastButtonCamp">Wrong!"\n"Try again</string>
+    <string name="levelButtonCamp">Level</string>
+    <string name="clickExit">Click again to exit</string>
+
+    <string name="GoPlayMarket">Are you sure you want to go to the Play Market?</string>
+    <string name="yes1">Yes</string>
+    <string name="no1">No</string>
+
+    <string name="language">Choose language</string>
+    <string name="Changelanguage">Language changed!</string>
+
+
+    // MapLevelBtn
+    <string name="btn1">How much will 2+2*2</string>
+    <string name="btn2">What number is missing?</string>
+    <string name="btn4">Find answer</string>
+    <string name="btn110">Find x,y,z</string>
+    <string name="btn109">Carlson\'s Birthday Today. And after 6 years, he will be 1.25 times more than 4 years ago. How many years is Carlson?</string>
+    <string name="btn105">If we add the age of the father and son (that is, the number of their years), we get the number 66. If the digits of the number of the father’s age are interchanged, then the number of the age of the son will be obtained. The son is at least 7 years old. The age of the father is not more than 59 years old and not less than 40. Answer how old the father OR son?</string>
+    <string name="btn92">When my father was 31 years old, I was 8 years old, and now my father is twice my age. How old am i now?</string>
+    <string name="btn88">Two people eat plums. If the first gives the second 2 plums, then they will be equally divided. If the second gives the first 2 plums, then the first will have 2 times more plums. How many plums does one (any) of them have?</string>
+    <string name="btn66">Name one of two numbers whose number of digits is equal to the number of letters making up the name of each of these numbers?</string>
+    <string name="btn54">5 bulls give 10 liters of milk. How much will 10 bulls give?</string>
+    <string name="btn50">Electricity   -   XI\nMathematician   -   ?</string>
+    <string name="answer50">13</string>
+    <string name="btn47">Brick weighs a kilogram and half a brick. How much does a brick weigh?</string>
+    <string name="btn42">How much will 40, divided into 1/2, a plus 10?</string>
+    <string name="btn39">How many triangles are there?</string>
+    <string name="btn36">The seamstress has a piece of cloth 18 m and cuts 3 m each day. What day will she cut off the last time?</string>
+    <string name="btn30">The boy paid 20$ for a bottle of cork. A bottle costs 16$ more than a cork. How much is a cork?</string>
+    <string name="btn28">How much will be half from 2 + 2</string>
+    <string name="btn24">Three hens in three days carry three eggs. How many eggs will lay 12 of these same hens in 12 days?</string>
+    <string name="btn19">The sum of what two natural numbers is equal to their product?</string>
+    <string name="btn6">The goose weighs 9 kg and the chicken is 7 kg less. How much do goose and chicken weigh together?</string>
+    <string name="btn10">The farmer had 20 sheep, and all but eight died. How many sheep are left at the farmer?</string>
+    <string name="btn11">You are ahead of the skier who was in second position. What place are you taking now?</string>
+
+    <string name="congratulations">Congratulations!</string>
+    <string name="campaign">Campaign!</string>
+    <string name="or">or</string>
+    <string name="and">and</string>
+
+</resources>

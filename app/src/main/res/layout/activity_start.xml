@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    android:backgroundTint="#ffffff"
+    tools:context=".StartActivity">
+
+    <TextView
+        android:fontFamily="serif"
+        android:layout_marginTop="30dp"
+        android:id="@+id/textStart"
+        android:textColor="#000000"
+        android:textAlignment="center"
+        android:layout_centerHorizontal="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/math_puzzlesStart"
+        android:textSize="38dp"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_centerInParent="true">
+
+        <Button
+            android:fontFamily="serif"
+            android:layout_marginTop="20dp"
+            android:id="@+id/mathLvl"
+            android:onClick="StartGame"
+            android:padding="10dp"
+            android:textSize="25dp"
+            android:text="@string/math_puzzle_levelsStart"
+            android:background="@drawable/my_xml_file"
+            android:layout_marginRight="20dp"
+            android:layout_marginLeft="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            />
+
+        <Button
+            android:fontFamily="serif"
+            android:id="@+id/sumLvl"
+            android:onClick="StartGame2"
+            android:padding="10dp"
+            android:textSize="25dp"
+            android:text="@string/sum_of_numbers_levelsStart"
+            android:background="@drawable/my_xml_file"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginLeft="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            />
+
+        <Button
+            android:fontFamily="serif"
+            android:visibility="gone"
+            android:onClick="Setting"
+            android:padding="10dp"
+            android:textSize="27dp"
+            android:text="Setting"
+            android:background="@drawable/my_xml_file"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginLeft="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            />
+
+        <Button
+            android:fontFamily="serif"
+            android:id="@+id/languageB"
+            android:onClick="Language"
+            android:padding="10dp"
+            android:textSize="25dp"
+            android:text="@string/languageStart"
+            android:background="@drawable/my_xml_file"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginLeft="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            />
+
+        <Button
+            android:fontFamily="serif"
+            android:id="@+id/share"
+            android:onClick="Share"
+            android:padding="10dp"
+            android:textSize="25dp"
+            android:text="@string/share_friendsStart"
+            android:background="@drawable/my_xml_file"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginLeft="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            />
+
+
+        <Button
+            android:fontFamily="serif"
+            android:id="@+id/playMarket"
+            android:onClick="Like"
+            android:padding="10dp"
+            android:textSize="25dp"
+            android:text="@string/play_marketStart"
+            android:background="@drawable/my_xml_file"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginLeft="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            />
+
+        <Button
+            android:fontFamily="serif"
+            android:id="@+id/Exit"
+            android:onClick="Exit"
+            android:padding="10dp"
+            android:textSize="25dp"
+            android:text="@string/exitStart"
+            android:background="@drawable/my_xml_file"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginLeft="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            />
+
+
+    </LinearLayout>
+
+
+</RelativeLayout>

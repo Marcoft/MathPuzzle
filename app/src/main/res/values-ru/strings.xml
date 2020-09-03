@@ -1,0 +1,107 @@
+<resources>
+    <string name="app_name">Math Puzzle</string>
+
+    //Activity_buttons_campaign:
+    <string name="level_Button_campaign">Уровень: 1</string>
+    <string name="QuestionsButtonCampaign">Какое число пропущено?</string>
+    <string name="CheckButtonCampaign">Проверить</string>
+    <string name="MenuButtonCampaign">Меню</string>
+
+    //activity_campaign_test_suma:
+    <string name="LevelSume4x4">Уровень: 1</string>
+
+    //activity_campaign_test_suma5x5:
+    <string name="LevelSuma5x5">Уровень: 1</string>
+
+    //activity_campaign_test_suma7x7:
+    <string name="LevelSuma7x7">Уровень: 1</string>
+
+    //activity_campaign_test_sume6x6:
+    <string name="LevelSuma6x6">Уровень: 1</string>
+
+    //activity_map_level:
+    //activity_map_level_suma:
+
+    //activity_picture_campaign_math:
+    <string name="LevelPictureCampaign">Уровень: 1</string>
+    <string name="QuestionsPictureCampaign">Сколько здесь треугольников?</string>
+    <string name="CheckPictureCampaign">Проверить</string>
+    <string name="MenuPictureCampaign">Меню</string>
+
+    //activity_setting:
+    <string name="NotificationsSetting">Уведомления</string>
+
+    //activity_signs_campaign:
+    <string name="LevelSignsCampaign">Уровень: 1</string>
+    <string name="QuestionsSignsCampaign">Какое число пропущено?</string>
+    <string name="ChechSignsCampaign">Проверить</string>
+    <string name="MenuSignsCampaign">Меню</string>
+
+    //activity_start:
+    <string name="math_puzzlesStart">Math Puzzle</string>
+    <string name="math_puzzle_levelsStart">Математические пазлы уровни</string>
+    <string name="sum_of_numbers_levelsStart">Сумма чисел уровни</string>
+    <string name="languageStart">Язык</string>
+    <string name="share_friendsStart">Поделиться с друзьями</string>
+    <string name="play_marketStart">Play Market</string>
+    <string name="exitStart">Выход</string>
+
+    //activity_text_questions_camplaign:
+    <string name="LevelTextCampaign">Уровень: 1</string>
+    <string name="QuestionsTextCampaign">Слово</string>
+    <string name="CheckTextCampaign">Проверить</string>
+    <string name="MenuTextCampaign">Меню</string>
+
+    //math_text_and_signs_after_lvl:
+    <string name="correctAfterTextAndSigns">Правильно</string>
+    <string name="the_answerAfterTextAndSigns">Ответ :</string>
+    <string name="next_levelAfterTextAndSings">Следующий уровень</string>
+
+    //suma_after_lvl:
+    <string name="correctAfterSuma">Правильно</string>
+    <string name="next_levelAfterSuma">Следующий уровень</string>
+
+    //Other
+    <string name="toastButtonCamp">Неправильно!"\n"Попробуйте еще раз</string>
+    <string name="levelButtonCamp">Уровень</string>
+    <string name="clickExit">Нажмите еще раз, чтобы выйти</string>
+
+    <string name="GoPlayMarket">Вы уверены, что хотите перейти в Play Market?</string>
+    <string name="yes1">Да</string>
+    <string name="no1">Нет</string>
+
+    <string name="language">Выберите язык</string>
+    <string name="Changelanguage">Язык изменен!</string>
+
+
+    // MapLevelBtn
+    <string name="btn1">Сколько будет 2+2*2</string>
+    <string name="btn2">Какое число пропущено?</string>
+    <string name="btn4">Найдите ответ</string>
+    <string name="btn110">Найдите x,y,z</string>
+    <string name="btn109">День рождения Карлсона сегодня. А через 6 лет ему будет в 1,25 раза больше, чем 4 года назад. Сколько лет Карлсону?</string>
+    <string name="btn105">Если сложить возраст отца и сына (т.е. количество их лет), то получим число 66. Если цифры числа возраста отца поменять местами, то получится число возраста сына. Возраст сына не менее 7 лет. Возраст отца не более 59 и не менее 40 лет. Ответьте, сколько лет отцу ИЛИ сыну?</string>
+    <string name="btn92">Когда моему отцу было 31 год, мне было 8 лет, и теперь мой отец в два раза старше меня. Сколько мне сейчас лет?</string>
+    <string name="btn88">Два человека едят сливы. Если первый даст второму 2 сливы, то у них будет поровну. Если второй даст первому 2 сливы, то первый будет иметь в 2 раза больше слив. Сколько слив есть у одного (любого) из них?</string>
+    <string name="btn66">Назовите одно из двух чисел, количество цифр которых равно количеству букв, составляющих название каждого из этих чисел?</string>
+    <string name="btn54">5 быков дают 10 литров молока. Сколько литров молока дадут 10 быков?</string>
+    <string name="btn50">Электричество   -   XIII\nМатематик   -   ?</string>
+    <string name="answer50">9</string>
+    <string name="btn47">Кирпич весит килограмм и полкирпича.Сколько весит кирпич?</string>
+    <string name="btn42">Сколько будет 40 поделить на 1/2, плюс 10?</string>
+    <string name="btn39">Сколько здесь треугольников?</string>
+    <string name="btn36">Швея имеет кусок сукна 18 м и каждый день отрезает по 3 м. На какой день она отрежет последний раз?</string>
+    <string name="btn30">Мальчик заплатил 20 рублей за бутылку с пробкой. Бутылка стоит на 16 рублей больше, чем пробка. Сколько стоит пробка?</string>
+    <string name="btn28">Сколько будет половина от 2 + 2</string>
+    <string name="btn24">Три курицы за три дня несут три яйца. Сколько яиц снесут 12 таких же кур за 12 дней?</string>
+    <string name="btn19">Сумма каких двух натуральных чисел равна их произведению?</string>
+    <string name="btn6">Гусь весит 9 кг, а курица на 7 кг меньше. Сколько весят вместе гусь и курица?</string>
+    <string name="btn10">У фермера было 20 овец, и все, кроме восьми, умерли. Сколько овец осталось у фермера?</string>
+    <string name="btn11">Вы опередили лыжника, который был на 2 позиции.На каком месте теперь Вы?</string>
+
+    <string name="congratulations">Поздравляю!</string>
+    <string name="campaign">Кампания!</string>
+    <string name="or">или</string>
+    <string name="and">и</string>
+
+</resources>
